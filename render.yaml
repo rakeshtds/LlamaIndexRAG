@@ -10,9 +10,9 @@ services:
   # Docs for Render blueprints:
   # https://render.com/docs/blueprint-spec
   - type: web
-    name: llama-app-backend
+    name: llama-app-backend-RAG
     runtime: docker
-    repo: https://github.com/run-llama/sec-insights.git
+    repo: https://github.com/rakeshtds/LlamaIndexRAG
     region: oregon
     plan: standard
     rootDir: ./backend
@@ -35,9 +35,9 @@ services:
   # A Docker cron service
   # Runs the seed_db job which should only be upserts and otherwise idempotent
   - type: cron
-    name: llama-app-cron
+    name: llama-app-cron-RAG
     runtime: docker
-    repo: https://github.com/run-llama/sec-insights.git
+    repo: https://github.com/rakeshtds/LlamaIndexRAG
     region: oregon
     plan: standard
     rootDir: ./backend
@@ -65,12 +65,12 @@ envVarGroups:
       value: '["http://localhost", "http://localhost:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://llama-app-backend.onrender.com", "https://llama-app-frontend.vercel.app", "http://secinsights.ai", "http://www.secinsights.ai", "https://secinsights.ai", "https://www.secinsights.ai"]'
     # S3_BUCKET_NAME is the bucket used for the StorageContext of the backend's LlamaIndex chat engine
     - key: S3_BUCKET_NAME
-      value: llama-app-backend-prod
-      previewValue: llama-app-backend-preview
+      value: llama-app-backend-prod-RAG
+      previewValue: llama-app-backend-preview-RAG
     # S3_ASSET_BUCKET_NAME is the bucket used for app assets (e.g. document PDFs)
     - key: S3_ASSET_BUCKET_NAME
-      value: llama-app-web-assets-prod
-      previewValue: llama-app-web-assets-preview
+      value: llama-app-web-assets-prod-RAG
+      previewValue: llama-app-web-assets-preview-RAG
     - key: CDN_BASE_URL
       value: https://d687lz8k56fia.cloudfront.net
       previewValue: https://dl94gqvzlh4k8.cloudfront.net
