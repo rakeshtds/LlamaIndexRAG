@@ -91,9 +91,7 @@ export const TitleAndDropdown = () => {
             and 10-Qs.
           </div>
         </div>
-        <div className="mt-4 flex items-center justify-center">
-          <GitHubButton href="https://github.com/run-llama/sec-insights">Open-Sourced on Github</GitHubButton>
-        </div>
+        
       </div>
       {isMobile ? (
         <div className="mt-12 flex h-1/5 w-11/12 rounded border p-4 text-center">
