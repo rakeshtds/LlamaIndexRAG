@@ -15,6 +15,13 @@ def copy_to_s3(dir_path: str, s3_bucket: str = settings.S3_ASSET_BUCKET_NAME):
     """
     Copy all files in dir_path to S3.
     """
+    print("************************$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$44*********")
+    print(settings.S3_ENDPOINT_URL)
+    print("************************$$$$$$$$$RRRRRRRRRRRRRRRRRR$$$$$$$$$$$$$$$$$$$$44*********")
+    print(s3_bucket)
+    print("************************$$$$$$$$$RRRRRRRRRRRRRRRRRR$$$$$$$$$$$$$$$$$$$$44*********")
+    print(dir_path)
+    
     s3 = s3fs.S3FileSystem(
         key=settings.AWS_KEY,
         secret=settings.AWS_SECRET,
