@@ -34,7 +34,7 @@ def copy_to_s3(dir_path: str, s3_bucket: str = settings.S3_ASSET_BUCKET_NAME):
 
     print("************************$$$$$$$$$RRRRRRRRRRRRRRRRRR$$$$$$$$$$$$$$$$$$$$43*********")
     print(dir_path)
-    s3.exists(s3.exists(s3_bucket))
+    print(s3.exists(s3_bucket))
     s3.put(dir_path, s3_bucket, recursive=True)
 
 
