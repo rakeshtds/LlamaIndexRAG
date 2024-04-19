@@ -72,8 +72,8 @@ envVarGroups:
       value: llama-app-web-assets-local-rag01
       previewValue: llama-app-web-assets-preview-RAG
     - key: CDN_BASE_URL
-      value: https://d687lz8k56fia.cloudfront.net
-      previewValue: https://dl94gqvzlh4k8.cloudfront.net
+      value: https://d16xd2usl7mmlf.cloudfront.net
+      previewValue: https://d16xd2usl7mmlf.cloudfront.net
     - key: SENTRY_DSN
       sync: false
 - name: prod-web-secrets
