@@ -10,7 +10,7 @@ from tqdm.contrib.itertools import product
 from app.core.config import settings
 
 DEFAULT_OUTPUT_DIR = "data/"
-# You can lookup the CIK for a company here: https://www.sec.gov/edgar/searchedgar/companysearch
+# You can lookup to the CIK for a company here: https://www.sec.gov/edgar/searchedgar/companysearch
 DEFAULT_CIKS = [
     # AAPL
     "320193",
