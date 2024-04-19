@@ -4,7 +4,7 @@ This is SEC Insights, a tool that let's you analyze multiple financial documents
 
 ## Technical Details
 
-Built with `next.js`, `tailwindcss`, and `typescript react`, based on the [T3 starter kit](https://create.t3.gg/en/usage/next-js).
+Built with `next.js`, `tailwindcss`, and `typescript react`, bpased on the [T3 starter kit](https://create.t3.gg/en/usage/next-js).
 
 ## Architecture
 
