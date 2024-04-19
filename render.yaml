@@ -62,7 +62,7 @@ envVarGroups:
       value: INFO
       previewValue: DEBUG
     - key: BACKEND_CORS_ORIGINS
-      value: '["http://localhost", "http://localhost:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://llama-app-backend.onrender.com", "https://llama-index-rag-rakesh-sharmas-projects-8d235a85.vercel.app", "https://llama-index-rag-rakesh-sharmas-projects-8d235a85.vercel.app", "http://llama-index-rag-rakesh-sharmas-projects-8d235a85.vercel.app", "https://llama-index-rag-rakesh-sharmas-projects-8d235a85.vercel.app", "https://llama-index-rag-rakesh-sharmas-projects-8d235a85.vercel.app"]'
+      value: '["https://llama-app-backend-rag.onrender.com", "https://llama-index-oo1z1gctt-rakesh-sharmas-projects-8d235a85.vercel.app", "https://llama-app-backend-rag.onrender.com/api/document"]'
     # S3_BUCKET_NAME is the bucket used for the StorageContext of the backend's LlamaIndex chat engine
     - key: S3_BUCKET_NAME
       value: llama-app-backend-local-rag01
