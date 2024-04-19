@@ -65,11 +65,11 @@ envVarGroups:
       value: '["http://localhost", "http://localhost:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://llama-app-backend.onrender.com", "https://llama-app-frontend.vercel.app", "http://secinsights.ai", "http://www.secinsights.ai", "https://secinsights.ai", "https://www.secinsights.ai"]'
     # S3_BUCKET_NAME is the bucket used for the StorageContext of the backend's LlamaIndex chat engine
     - key: S3_BUCKET_NAME
-      value: llama-app-backend-prod-RAG
+      value: llama-app-backend-local-rag01
       previewValue: llama-app-backend-preview-RAG
     # S3_ASSET_BUCKET_NAME is the bucket used for app assets (e.g. document PDFs)
     - key: S3_ASSET_BUCKET_NAME
-      value: llama-app-web-assets-prod-RAG
+      value: llama-app-web-assets-local-rag01
       previewValue: llama-app-web-assets-preview-RAG
     - key: CDN_BASE_URL
       value: https://d687lz8k56fia.cloudfront.net
