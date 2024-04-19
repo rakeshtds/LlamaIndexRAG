@@ -14,14 +14,6 @@ DEFAULT_OUTPUT_DIR = "data/"
 DEFAULT_CIKS = [
     # AAPL
     "320193",
-    # MSFT
-    "789019",
-    # AMZN
-    "0001018724",
-    # GOOGL
-    "1652044",
-    # META
-    "1326801",
 ]
 DEFAULT_FILING_TYPES = [
     "10-K",
