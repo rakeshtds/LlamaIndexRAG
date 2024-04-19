@@ -27,7 +27,7 @@ export const env = createEnv({
    */
   runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
-    NEXT_PUBLIC_BACKEND_URL: process.env.NEXT_PUBLIC_BACKEND_URL,
+    NEXT_PUBLIC_BACKEND_URL: "https://llama-app-backend-rag.onrender.com/",
     NEXT_PUBLIC_CODESPACES: process.env.CODESPACES,
     NEXT_PUBLIC_CODESPACE_NAME: process.env.CODESPACE_NAME,
   },
