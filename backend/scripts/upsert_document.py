@@ -1,7 +1,7 @@
 from fire import Fire
-from app.schema import Document
-from app.db.session import SessionLocal
-from app.api import crud
+from app.app.schema import Document
+from app.app.db.session import SessionLocal
+from app.app.api import crud
 import asyncio
 
 async def upsert_single_document(doc_url: str):
