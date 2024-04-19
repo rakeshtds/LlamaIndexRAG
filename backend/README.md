@@ -8,7 +8,7 @@ Live at https://secinsights.ai/
     * This step can be skipped if you're running from the devcontainer image in Github Codespaces
 1. Run `poetry shell`
 1. Run `poetry install` to install dependencies for the project
-1. Create the `.env` file and source it. The `.env.development` file is a good template.
+1. Create the `.env` file and source it. The `.env.development` file is a good template123.
     1. `cp .env.development .env`
     1. `set -a`
     1. `source .env`
