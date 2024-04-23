@@ -14,6 +14,8 @@ DEFAULT_OUTPUT_DIR = "data/"
 DEFAULT_CIKS = [
     # AAPL
     "320193",
+    # MSFT
+    "789019",
 ]
 DEFAULT_FILING_TYPES = [
     "10-K",
