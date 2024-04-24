@@ -82,7 +82,7 @@ export const TitleAndDropdown = () => {
       </div>
       <div className="mt-28 flex flex-col items-center">
         <div className="w-4/5 text-center text-4xl">
-          FIC's LLM for Business Intelligence with{" "}
+          FIC's LLM POC for Business Intelligence with{" "}
           <span className="font-bold">SEC Insights </span>
         </div>
         <div className="mt-4 flex items-center justify-center">
