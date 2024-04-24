@@ -76,13 +76,13 @@ export const TitleAndDropdown = () => {
         <a href="https://www.llamaindex.ai/" target="_blank">
           <button className="flex items-center justify-center font-nunito text-lg font-bold ">
             Built for LLM RAG POC
-            <img src="fidelity.png" className="mx-2 rounded-lg" width={140} />
+            <img src="RAG1.png" className="mx-2 rounded-lg" width={140} />
           </button>
         </a>
       </div>
       <div className="mt-28 flex flex-col items-center">
         <div className="w-4/5 text-center text-4xl">
-          FIC's LLM POC for Business Intelligence with{" "}
+          LLM POC for Business Intelligence with{" "}
           <span className="font-bold">SEC Insights </span>
         </div>
         <div className="mt-4 flex items-center justify-center">
